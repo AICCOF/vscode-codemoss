@@ -8,7 +8,7 @@ import { tabbyStatusBarItem } from "./TabbyStatusBarItem";
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: ExtensionContext) {
-  console.debug("Activating Tabby extension", new Date());
+  console.debug("Activating Tabby2 extension", new Date());
   context.subscriptions.push(
     languages.registerInlineCompletionItemProvider(
       { pattern: "**" },

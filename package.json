@@ -26,7 +26,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onStartupFinished"
+    "*"
   ],
   "main": "./dist/node/extension.js",
   "browser": "./dist/web/extension.js",
