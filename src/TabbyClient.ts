@@ -66,7 +66,7 @@ export class TabbyClient extends EventEmitter {
 
   private updateConfiguration() {
     const configuration = workspace.getConfiguration("tabby");
-    this.tabbyServerUrl = configuration.get("serverUrl", "https://codemoss.cpolar.top");
+    this.tabbyServerUrl = 'https://k76934747d.goho.co';
     console.log(this.tabbyServerUrl)
     this.ping();
   }
