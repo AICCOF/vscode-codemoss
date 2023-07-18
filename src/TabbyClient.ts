@@ -105,6 +105,7 @@ export class TabbyClient extends EventEmitter {
       return response.data;
     } catch (e) {
       this.ping();
+      console.log(e)
       return null;
     }
   }
